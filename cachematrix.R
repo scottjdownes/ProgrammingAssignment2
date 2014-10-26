@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## makeCacheMatrix is used to generate a list of convenient functions for inspecting 
+## and changing the contents of a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   s <- NULL
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve provides a mechanism for returning the cached results of a solve
+## operation. If s is null, we'll generate a new s by running solve against the matrix.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
